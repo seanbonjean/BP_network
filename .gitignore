@@ -1,0 +1,5 @@
+__pycache__
+MNIST_data
+weights/original/*
+weights/trained/*
+!weights/**/*.gitkeep
