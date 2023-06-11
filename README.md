@@ -1,0 +1,3 @@
+# BP_network
+
+注意最新版本的tensorflow已经把tensorflow.examples去掉了，要从网上找来放进tensorflow模块里
