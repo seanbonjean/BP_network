@@ -80,6 +80,7 @@ if mode == 1:
 elif mode == 2:
     right_count = 0
     for i in range(test_num):
+        print(f"No.{i: >5}", end=' ')
         # 正向计算
         Xs = test_img[i, :]
         Z1s = np.add(np.dot(weight1, Xs), bias1)

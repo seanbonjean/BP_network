@@ -23,6 +23,7 @@ bias3 = np.loadtxt('weights/original/rand-bias3.txt')
 
 # 训练
 for i in range(train_num):
+    print(f"No.{i: >5}", end=' ')
     # 正向计算
     Xs = train_img[i, :]  # 输入层，为28x28像素图片展平后的784维向量（MNIST原始数据就是展平了的）
     Z1s = np.add(np.dot(weight1, Xs), bias1)  # 第一层的Z = WX+b
